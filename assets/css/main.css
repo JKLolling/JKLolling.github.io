@@ -1684,6 +1684,22 @@ input, select, textarea {
 			width: 50vw !important;
 		}
 
+		.resume_button_holder{
+			display: flex;
+			align-items: center;
+			border: none;
+			min-width: fit-content;
+
+			/* width: 40%; */
+			width: 100%;
+			margin-top: 3em;
+
+		}
+		#resume-download{
+			margin:  auto !important;
+			width: 100% !important;
+		}
+
 
     #work{
       width: fit-content !important;
@@ -1752,3 +1768,24 @@ input, select, textarea {
         margin-left: 10% !important;
       }
 		}
+
+
+.tech_image{
+	filter: invert(1);
+}
+
+.tech_parent{
+	display: flex;
+	justify-content: center;
+}
+.tech_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin-bottom: 1.5em;
+}
+.tech_icon{
+	font-size: 6em;
+	margin: 15px;
+}
