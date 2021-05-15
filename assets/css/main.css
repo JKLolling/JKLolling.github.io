@@ -1826,3 +1826,7 @@ input, select, textarea {
 		display: none;
 	}
 }
+
+.work_button_holder{
+	margin-right: 25px;
+}
